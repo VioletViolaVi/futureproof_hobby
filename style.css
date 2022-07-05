@@ -3,6 +3,7 @@
 body {
   background-color: #fff;
   font-family: 'Yanone Kaffeesatz', sans-serif;
+  cursor: default;
 }
 
 header {
@@ -21,11 +22,16 @@ a {
   padding: 25px;
   text-decoration: none;
   font-size: 1.5rem;
-  color: pink;
+  color: #2155cd;
 }
 
 a:visited {
-  color: green;
+  color: #002e63;
+}
+
+a:hover {
+  color: #9bddff;
+  font-size: 2rem;
 }
 
 figure {
@@ -64,6 +70,7 @@ img {
 
 figcaption {
   margin: 1rem 0;
+  font-size: 1.1rem;
 }
 
 caption {
@@ -85,6 +92,7 @@ th {
 td {
   border: thin solid grey;
   text-align: center;
+  font-size: 1.3rem;
 }
 
 tr:hover {
@@ -99,6 +107,14 @@ ul li {
   list-style: none;
 }
 
+.about-para {
+  font-size: 1.2rem;
+  padding: 0 6rem;
+  line-height: 1.4;
+  margin-bottom: 5rem;
+  font-family: auto;
+}
+
 footer {
   position: relative;
   left: 0;
@@ -110,12 +126,4 @@ footer {
   font-size: 1.5rem;
   padding: 1rem 0;
   margin-top: 2rem;
-}
-
-.about-para {
-  font-size: 1.2rem;
-  padding: 0 6rem;
-  line-height: 1.4;
-  margin-bottom: 5rem;
-  font-family: auto;
 }
