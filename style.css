@@ -44,9 +44,6 @@ figure {
 }
 
 img {
-  /* width: 30rem;
-  height: 25rem; */
-
   width: 30rem;
   height: 25rem;
   border-radius: 1rem;
@@ -55,17 +52,6 @@ img {
   border-bottom-right-radius: 1rem;
   border-top-right-radius: 11rem;
   border-top-left-radius: 2rem;
-
-  /* 
-    width: 30rem;
-    height: 25rem;
-    border-radius: 1rem;
-    border: solid 0.5rem #00bfff;
-    border-bottom-left-radius: 10rem;
-    border-bottom-right-radius: 1rem;
-    border-top-right-radius: 11rem;
-    border-top-left-radius: 2rem;
-  */
 }
 
 figcaption {
